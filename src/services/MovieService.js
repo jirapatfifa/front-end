@@ -2,7 +2,7 @@ export async function getAllMovies() {
 
     try{
         //const response = await fetch('/api/users');
-         const response = await fetch('http://localhost:3001/api/movie/all');
+         const response = await fetch('http://api.se-rmutl.net/api/movie/all');
         //const response = await fetch('/api/movie/all');
         return await response.json();
     }catch(error) {
