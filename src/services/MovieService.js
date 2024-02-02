@@ -24,7 +24,7 @@ export async function createMovie(data) {
 // Example in MovieService.js
 export async function getMovieSearch(search_text) {
     try {
-        const response = await fetch(`http://localhost:4000/api/movie/search?search_text=${search_text}`);
+        const response = await fetch(`http://api.se-rmutl.net/api/movie/search?search_text=${search_text}`);
         return await response.json();
     } catch (error) {
         return [];
