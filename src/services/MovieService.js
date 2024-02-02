@@ -13,7 +13,7 @@ export async function getAllMovies() {
 
 //---- ยังไม่เสร็จ ----
 export async function createMovie(data) {
-    const response = await fetch('http://localhost:4000/api/movie/insert', {
+    const response = await fetch('http://api.se-rmutl.net/api/movie/insert', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({...data})
