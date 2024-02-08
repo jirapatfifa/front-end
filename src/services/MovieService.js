@@ -1,4 +1,4 @@
-const bearerToken = '1234567890';
+import bearerToken from "../components/Global token";
 
 export async function getAllMovies() {
     try {
@@ -13,7 +13,7 @@ export async function getAllMovies() {
     }
 }
 
-export async function createMovie(data, bearerToken) {
+export async function createMovie(data) {
     try {
         const response = await fetch('https://api.se-rmutl.net/api/movie/insert', {
             method: 'POST',
@@ -29,7 +29,7 @@ export async function createMovie(data, bearerToken) {
     }
 }
 
-export async function getMovieSearch(search_text, bearerToken) {
+export async function getMovieSearch(search_text) {
     try {
         const response = await fetch(`https://api.se-rmutl.net/api/movie/search?search_text=${search_text}`, {
             headers: {
