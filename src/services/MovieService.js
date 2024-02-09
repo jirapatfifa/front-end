@@ -32,10 +32,10 @@ export async function createMovie(data) {
 
 export async function getMovieSearch(search_text) {
     try {
-        const response = await fetch(config.API_URL +'/api/movie/search?search_text=${search_text}', {
+        const response = await fetch(`${config.API_URL}/api/movie/search?search_text=${search_text}`, {
             headers: {
                 'Authorization': `Bearer ${token}`
-            }
+            }          
         });
         return await response.json();
     } catch (error) {
