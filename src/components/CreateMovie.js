@@ -5,11 +5,11 @@ const CreateMovie = ({ onChangeForm, createMovie }) => {
     <div className="container">
       <div className="row">
         <div className="col-md-7 mrgnbtm">
-          <h2 style={{ backgroundColor: 'lightgray'}}>Create Movie</h2>
+          <h2>Create Movie</h2>
           <form>
             <div className="row">
               <div className="form-group col-md-6">
-                <label htmlFor="exampleInputEmail1" style={{ backgroundColor: 'lightgray' }}>Title</label>
+                <label htmlFor="exampleInputEmail1">Title</label>
                 <input
                   type="text"
                   onChange={(e) => onChangeForm(e)}
@@ -21,7 +21,7 @@ const CreateMovie = ({ onChangeForm, createMovie }) => {
                 />
               </div>
               <div className="form-group col-md-6">
-                <label htmlFor="exampleInputPassword1" style={{ backgroundColor: 'lightgray' }}>Genre</label>
+                <label htmlFor="exampleInputPassword1">Genre</label>
                 <input
                   type="text"
                   onChange={(e) => onChangeForm(e)}
@@ -34,7 +34,7 @@ const CreateMovie = ({ onChangeForm, createMovie }) => {
             </div>
             <div className="row">
               <div className="form-group col-md-6">
-                <label htmlFor="exampleInputEmail1" style={{ backgroundColor: 'lightgray' }}>Director</label>
+                <label htmlFor="exampleInputEmail1">Director</label>
                 <input
                   type="text"
                   onChange={(e) => onChangeForm(e)}
@@ -46,7 +46,7 @@ const CreateMovie = ({ onChangeForm, createMovie }) => {
                 />
               </div>
               <div className="form-group col-md-6">
-                <label htmlFor="exampleInputPassword1" style={{ backgroundColor: 'lightgray' }}>Release Year</label>
+                <label htmlFor="exampleInputPassword1">Release Year</label>
                 <input
                   type="text"
                   onChange={(e) => onChangeForm(e)}

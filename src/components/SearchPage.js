@@ -35,7 +35,7 @@ const SearchPage = ({ setMovies, setNumberOfMovies }) => {
 
   return (
     <div>
-      <h2 style={{ backgroundColor: 'lightgray' }}>Movie Search</h2>
+      <h2>Movie Search</h2>
       <form className="d-flex">
         <input
           type="text"
@@ -47,7 +47,7 @@ const SearchPage = ({ setMovies, setNumberOfMovies }) => {
         <button
           onClick={handleSearch}
           className="btn btn-danger"
-          style={{ backgroundColor: 'green' }}
+          style={{ backgroundColor: 'yellow',color:'black' }}
         >
           Search
         </button>

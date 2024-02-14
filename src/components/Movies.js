@@ -22,8 +22,8 @@
 
         return(
             <div className="container">
-                <div className="row mrgnbtm"><h2 style={{ backgroundColor: 'lightgray' }}>Movies</h2></div>
-                <table className="table table-bordered" style={{ backgroundColor: 'lightgray' }}>
+                <div className="row mrgnbtm"><h2>Movies</h2></div>
+                <table className="table table-dark table-hover">
                     <thead>
                     <tr>
                         <th>Movie Id</th>

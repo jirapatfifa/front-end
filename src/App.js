@@ -70,7 +70,7 @@ useEffect(() => {
 }
 
    return (
-    <div className="App" style={{backgroundImage: 'url("/images/car.jpg")', backgroundSize: 'cover', minHeight: '100vh'}}>
+    <div className="App">
       <Header></Header>
       <div className="container mrgnbtm">
         <div className="row">

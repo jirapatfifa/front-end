@@ -12,7 +12,7 @@ export const DisplayBoard = ({numberOfMovies, getAllMovies}) => {
     }
     
     return(
-        <div style={{backgroundColor:'green'}} className="display-board">
+        <div style={{backgroundColor:'black'}} className="display-board">
             <h4 style={{color: 'white'}}>Movies Created</h4>
             <div className="number">
             {numberOfMovies}
