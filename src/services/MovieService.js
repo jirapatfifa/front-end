@@ -3,11 +3,7 @@ const config = require('../components/apiConfig')[env];
 const token = config.bearer_token;
 export async function getAllMovies() {
     try {
-        const response = await fetch(config.API_URL +'/api/movie/all', {
-            headers: {
-                'Authorization': `Bearer ${token}`
-            }
-        });
+        const response = await fetch(config.API_URL +'/api/movie/all');
         return await response.json();
     } catch (error) {
         return [];
