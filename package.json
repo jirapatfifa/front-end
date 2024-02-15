@@ -19,7 +19,7 @@
     "eject": "react-scripts eject",
     "prod":""
   },
-  "proxy": "http://localhost:4000",
+  "proxy": "http://api.se-rmutl.net",
   "eslintConfig": {
     "extends": "react-app"
   },
