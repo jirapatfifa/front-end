@@ -5,7 +5,7 @@ var apiConfig = {
     },
     production: {
         bearer_token : '1234567890',
-        API_URL : 'http://api.se-rmutl.net',
+        API_URL : 'https://api.se-rmutl.net',
     }
 };
 module.exports = apiConfig;
